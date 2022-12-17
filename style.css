@@ -27,11 +27,34 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
 }
 
 .sign-up {
     align-self: start;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.second-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
 }
 
 .header, .footer {
